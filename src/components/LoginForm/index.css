@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10vw;
+}
+
+.website-login-image {
+  height: 30vh;
+  width: 30vw;
+}
+
+.website-logo {
+  height: 35px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffffff;
+  height: 40vh;
+  width: 20vw;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+}
+
+.username-label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bolder;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.username-input {
+  height: 30px;
+  min-width: 18vw;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #d7dfe9;
+  margin-bottom: 20px;
+}
+
+.password-label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bolder;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.password-input {
+  height: 30px;
+  min-width: 18vw;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #d7dfe9;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #0b69ff;
+  height: 30px;
+  min-width: 18vw;
+  border-style: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff0000;
+}
